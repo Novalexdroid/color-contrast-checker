@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Color Contrast Checker">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" async preload href="fonts/fonts.css" type="text/css"/>
+    <link rel="shortcut icon" href="icons/icon512.png" type="image/png">
+    <title>Color Contrast Checker</title>
+    <style>
+        body {
+            font-family: 'poppins';
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .checker-container {
+            margin-top: 20px;
+        }
+        input {
+            width: 250px;
+            border: none;
+            outline: none;
+            height: 50px;
+        }
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .pass {
+            color: green;
+        }
+        .fail {
+            color: red;
+        }
+        .contrast-ratio {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Color Contrast Checker</h1>
+    <div>
+        <label for="textColor">Text Color:</label><br>
+        <input type="color" id="textColor" value="">
+    </div>
+    <div>
+        <label for="bgColor">Background Color:</label><br>
+        <input type="color" id="bgColor" value="#FFFFFF">
+    </div>
+    <div class="checker-container">
+        <div id="textBox" class="color-box" style="background-color: #000000;"></div>
+        <div id="bgBox" class="color-box" style="background-color: #FFFFFF;"></div>
+    </div>
+    
+    <div class="result">
+        <p id="contrastResult">Contrast Ratio: </p>
+        <p id="passFail" class="contrast-ratio"></p>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
