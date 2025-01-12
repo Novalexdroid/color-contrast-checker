@@ -9,7 +9,38 @@ The tool allows you to input two color values (hex or RGB) and calculates the co
 - Real-time contrast ratio calculation: As you input colors, the tool instantly calculates the contrast ratio.
 - Accessibility check: The tool checks whether the contrast ratio meets the AA or AAA standards according to the WCAG (Web Content Accessibility Guidelines).
 - Easy-to-use interface: With just a few clicks, users can quickly determine if their color choices are accessible.
-  
+
+## Installation Guide
+
+### Step 1: Clone or Download the Extension
+1. Download the repository as a ZIP file or clone it using Git:
+2. Extract the contents of the ZIP file, if applicable.
+
+### Step 2: Open the Extensions Page in Your Browser
+1. Open your preferred web browser.
+2. Navigate to the Extensions page using the corresponding URL from the table below:
+
+| Browser          | Extensions Page URL              |
+|------------------|----------------------------------|
+| Google Chrome    | `chrome://extensions`           |
+| Microsoft Edge   | `edge://extensions`             |
+| Mozilla Firefox  | `about:addons`                  |
+| Opera            | `opera://extensions`            |
+| Brave            | `brave://extensions`            |
+| Vivaldi          | `vivaldi://extensions`          |
+
+3. Enable **Developer mode** if required (varies by browser).
+
+### Step 3: Load the Extension
+1. Click the **Load unpacked** button (or equivalent in your browser).
+2. Select the folder containing the extension files (where `manifest.json` is located).
+
+### Step 4: Verify the Installation
+- The Random Password Generator icon should now appear in the browser toolbar.
+- Click the icon to open the popup and generate passwords.
+
+
+
 ## How to Use:
 1. Enter the background color in the first color input box.
 2. Enter the text color in the second color input box.
@@ -40,12 +71,14 @@ The tool is built using HTML, CSS, and JavaScript. It calculates the contrast ra
 
 Feel free to use this tool in your projects and ensure that your web content is accessible to a wider audience!
  
----
 
 ## Key Features:
 1. Contrast Ratio Calculation: Based on the luminosity of the colors, it calculates the contrast ratio between the background and text.
 2. WCAG Guidelines: It helps you check if the contrast ratio meets the AA or AAA standards for accessibility.
 3. Real-time Update: The contrast ratio is updated as soon as you change the color inputs.
+
+## Notes
+- This extension does not require an internet connection to function.
 
 This description will give the user a clear understanding of what the tool does, how to use it, and why it's important for accessibility.
 
