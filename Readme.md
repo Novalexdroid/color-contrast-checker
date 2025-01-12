@@ -80,6 +80,3 @@ Feel free to use this tool in your projects and ensure that your web content is 
 ## Notes
 - This extension does not require an internet connection to function.
 
-This description will give the user a clear understanding of what the tool does, how to use it, and why it's important for accessibility.
-
-Let me know if you need any further assistance!
