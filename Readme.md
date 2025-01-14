@@ -5,7 +5,6 @@ This is a simple contrast checker tool built using HTML and JavaScript. It helps
 The tool allows you to input two color values (hex or RGB) and calculates the contrast ratio between the background and text colors. The contrast ratio is then compared to the WCAG guidelines to ensure that the colors are accessible for users with visual impairments. 
 
 ## Features:
-- Hex & RGB color input: You can enter colors in both hexadecimal (e.g., #ffffff) and RGB (e.g., rgb(255, 255, 255)) formats.
 - Real-time contrast ratio calculation: As you input colors, the tool instantly calculates the contrast ratio.
 - Accessibility check: The tool checks whether the contrast ratio meets the AA or AAA standards according to the WCAG (Web Content Accessibility Guidelines).
 - Easy-to-use interface: With just a few clicks, users can quickly determine if their color choices are accessible.
@@ -13,7 +12,7 @@ The tool allows you to input two color values (hex or RGB) and calculates the co
 ## Installation Guide
 
 ### Step 1: Clone or Download the Extension
-1. Download the repository as a ZIP file or clone it using Git:
+1. Download the repository as a ZIP file or clone it using Git
 2. Extract the contents of the ZIP file, if applicable.
 
 ### Step 2: Open the Extensions Page in Your Browser
@@ -71,7 +70,6 @@ The tool is built using HTML, CSS, and JavaScript. It calculates the contrast ra
 
 Feel free to use this tool in your projects and ensure that your web content is accessible to a wider audience!
  
-
 ## Key Features:
 1. Contrast Ratio Calculation: Based on the luminosity of the colors, it calculates the contrast ratio between the background and text.
 2. WCAG Guidelines: It helps you check if the contrast ratio meets the AA or AAA standards for accessibility.
